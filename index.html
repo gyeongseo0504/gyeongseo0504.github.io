@@ -16,7 +16,9 @@
   h1 { font-size:1.5rem; margin:0 0 8px; }
   .intro { color:var(--sub); margin:0 0 24px; }
   .notice { background:var(--card); border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:8px; padding:12px 14px; font-size:0.9rem; color:var(--sub); margin-bottom:24px; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; margin-bottom:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; margin-bottom:14px; }
+  .card img { display:block; width:100%; height:auto; }
+  .card .body { padding:16px; }
   .card h2 { font-size:1.05rem; margin:0 0 6px; }
   .meta { font-size:0.9rem; color:var(--sub); margin:0 0 10px; }
   .card a.btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:8px 14px; border-radius:8px; font-size:0.9rem; }
@@ -29,31 +31,43 @@
   <p class="intro">국내 여행 패키지 상품의 가격과 포함사항을 보기 쉽게 정리합니다.</p>
 
   <div class="notice">
-    이 페이지의 상품 링크는 제휴 링크입니다. 링크를 통해 예약하면 일정액의 수수료를 받을 수 있으며, 이용자가 추가로 부담하는 금액은 없습니다. 가격과 일정은 작성 시점 기준이니 예약 전 상품 페이지에서 꼭 확인해 주세요.
+    이 페이지의 상품 링크는 제휴 링크입니다. 링크를 통해 예약하면 일정액의 수수료를 받을 수 있으며, 이용자가 추가로 부담하는 금액은 없습니다. 가격과 일정은 작성 시점 기준이니 예약 전 상품 페이지에서 꼭 확인해 주세요. 이미지는 일러스트이며 실제 상품 사진이 아닙니다.
   </div>
 
   <section class="card">
-    <h2>울릉도+독도 2박3일 패키지 (포항 출발)</h2>
-    <p class="meta">459,000원 · 실시간 확정 상품</p>
-    <a class="btn" href="https://naver.me/5xg31OWq" rel="sponsored nofollow">상품 보기</a>
+    <img src="img/ulleungdo.svg" alt="울릉도 일러스트" width="800" height="450" loading="lazy">
+    <div class="body">
+      <h2>울릉도+독도 2박3일 패키지 (포항 출발)</h2>
+      <p class="meta">459,000원 · 실시간 확정 상품</p>
+      <a class="btn" href="https://naver.me/5xg31OWq" rel="sponsored nofollow">상품 보기</a>
+    </div>
   </section>
 
   <section class="card">
-    <h2>울릉도+독도 2박3일 패키지 (묵호 출발)</h2>
-    <p class="meta">469,000원 · 실시간 확정 상품</p>
-    <a class="btn" href="https://naver.me/FWTjuw0i" rel="sponsored nofollow">상품 보기</a>
+    <img src="img/ulleungdo.svg" alt="울릉도 일러스트" width="800" height="450" loading="lazy">
+    <div class="body">
+      <h2>울릉도+독도 2박3일 패키지 (묵호 출발)</h2>
+      <p class="meta">469,000원 · 실시간 확정 상품</p>
+      <a class="btn" href="https://naver.me/FWTjuw0i" rel="sponsored nofollow">상품 보기</a>
+    </div>
   </section>
 
   <section class="card">
-    <h2>제주 2박3일 (카멜리아힐·산방산 유람선·에코랜드 포함)</h2>
-    <p class="meta">339,000원 · 노팁·노옵션</p>
-    <a class="btn" href="https://naver.me/5B0ALTny" rel="sponsored nofollow">상품 보기</a>
+    <img src="img/jeju.svg" alt="제주 일러스트" width="800" height="450" loading="lazy">
+    <div class="body">
+      <h2>제주 2박3일 (카멜리아힐·산방산 유람선·에코랜드 포함)</h2>
+      <p class="meta">339,000원 · 노팁·노옵션</p>
+      <a class="btn" href="https://naver.me/5B0ALTny" rel="sponsored nofollow">상품 보기</a>
+    </div>
   </section>
 
   <section class="card">
-    <h2>제주도 패키지 2박3일 (노쇼핑·노옵션, 아침 출발)</h2>
-    <p class="meta">429,000원 · 쇼핑·옵션 없는 일정</p>
-    <a class="btn" href="https://naver.me/GHLR04nx" rel="sponsored nofollow">상품 보기</a>
+    <img src="img/jeju.svg" alt="제주 일러스트" width="800" height="450" loading="lazy">
+    <div class="body">
+      <h2>제주도 패키지 2박3일 (노쇼핑·노옵션, 아침 출발)</h2>
+      <p class="meta">429,000원 · 쇼핑·옵션 없는 일정</p>
+      <a class="btn" href="https://naver.me/GHLR04nx" rel="sponsored nofollow">상품 보기</a>
+    </div>
   </section>
 
   <footer>

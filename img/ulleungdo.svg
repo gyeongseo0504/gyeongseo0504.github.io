@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="울릉도 일러스트">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8e0f2"/>
+      <stop offset="1" stop-color="#eef8fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <rect y="290" width="800" height="160" fill="#3f8fb0"/>
+  <path d="M150 300 Q260 150 400 170 Q540 150 660 300 Z" fill="#4f7d5f"/>
+  <path d="M300 300 Q400 200 500 300 Z" fill="#6a9a72"/>
+  <path d="M620 300 L700 250 L760 300 Z" fill="#888f96"/>
+  <path d="M0 330 Q200 310 400 330 T800 325 L800 450 L0 450 Z" fill="#2f6f8f"/>
+</svg>
